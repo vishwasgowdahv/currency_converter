@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    width: 600px;
+    margin: 0px 30px 20px 30px;
+    justify-content: center;
+    gap: 60px;
+}
+.cardRight{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* background-color: green; */
+     margin: 0px 30px;
+     gap: 10px;
+     
+
+}
+
+.cardLeft{
+    display: flex;
+    gap: 10px;
+    /* background-color: green; */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.cardLeft input{
+    height: 30px;
+}
+.currselect{
+    height: 35px;
+    padding: 3px;
+}
+
