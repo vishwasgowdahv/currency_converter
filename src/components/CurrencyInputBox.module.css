@@ -1,9 +1,10 @@
 .card{
     display: flex;
-    width: 600px;
-    margin: 0px 30px 20px 30px;
+    width: 100vw;
     justify-content: center;
-    gap: 60px;
+    gap: 80px;
+    /* box-sizing: border-box; */
+    align-items: center;
 }
 .cardRight{
     
@@ -14,8 +15,10 @@
      margin: 0px 30px;
      gap: 10px;
      
+     
 
 }
+
 
 .cardLeft{
     display: flex;
@@ -31,5 +34,14 @@
 .currselect{
     height: 35px;
     padding: 3px;
+    border-radius: 20px;
 }
+.ammoutInput{
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    padding: 3px;
 
+}
+.ammoutInput::placeholder{
+    text-align: center;
+}

@@ -2,7 +2,7 @@
   font-family: "Chakra Petch", sans-serif;
 }
 
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -35,7 +35,7 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 .card {
   padding: 2em;
@@ -45,7 +45,8 @@
   color: #888;
 }
 .convert{
-  
+  background-color: white;
+  color: black;
   margin: 20px;
 }
 .convert:hover{
@@ -54,5 +55,25 @@
 }
 
 .swapbtn{
-  margin: 0px;
+  height: 15%;
+  width: height;
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 875px) {
+  .swapbtn{border-radius: 30%;
+  }
+  .wrapper{
+    margin-left: 17px;
+  }
+ }
+.wrapper{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1{
+  margin: 10vh 20vh;
 }

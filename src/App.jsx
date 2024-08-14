@@ -38,13 +38,17 @@ function App() {
   }
   return (
     <>
+    <div className="wrapper">
+      <div className="heading">
     <h1>CURRENCY CONVERTER</h1>
+    </div>
      <CurrencyInputBox label={"From"} currencyType={currencyType} setCuurencyType={setCuurencyType} dispcurrencyType={currencyType} dispAmmount={fromAmmount} setDispAmmount={setFromAmmount} currencyOptions={currencyOptions} />
      <button className='swapbtn' onClick={swapCurrency} >⇵</button>
      <CurrencyInputBox label={"To"} currencyType={currencyType} setCuurencyType={setCuurencyType} 
      tocurrencyType={tocurrencyType} setToCuurencyType={setToCuurencyType} dispcurrencyType={tocurrencyType}
      dispAmmount={toAmmount} setDispAmmount={setToAmmount} currencyOptions={currencyOptions} />
      <button className='convert' onClick={convertCurrency}>CONVERT</button>
+     </div>
     </>
   )
 }

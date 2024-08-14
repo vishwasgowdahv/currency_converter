@@ -28,6 +28,7 @@ export default function CurrencyInputBox(props) {
         <div className={styles.cardLeft}>
           <label>{label} : {dispcurrencyType}</label>
           <input
+          className={styles.ammoutInput}
             value={dispAmmount}
             onChange={handleChange}
             type="number"
