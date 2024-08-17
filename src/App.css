@@ -1,53 +1,41 @@
 *{
   font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 100px 0%;
+  gap: 10%;
+}
+.maincontent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading{
+  display: flex;
+  white-space: wrap;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 .convert{
   background-color: white;
   color: black;
-  margin: 20px;
+  height: 40px;
+  width : 150px;
+  border-radius: 10px;
+  margin: 30px 0px 10px 35px;
 }
 .convert:hover{
   background-color: white;
@@ -55,25 +43,18 @@
 }
 
 .swapbtn{
-  height: 15%;
-  width: height;
   background-color: white;
   color: black;
+  height: 40px;
+  width : 40px;
+  border-radius: 10px;
+  margin: 5px 0px 5px 35px;
 }
 @media only screen and (max-width: 875px) {
-  .swapbtn{border-radius: 30%;
+  /* .swapbtn{border-radius: 30%;
   }
   .wrapper{
     margin-left: 17px;
-  }
+  } */
  }
-.wrapper{
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.heading h1{
-  margin: 10vh 20vh;
-}
+
