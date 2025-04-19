@@ -14,9 +14,9 @@
      /* background-color: green; */
      /* margin: 0px 30px; */
      gap: 10px;
-     
-     
-
+}
+.cardRight>input{
+    padding-left:10px;
 }
 
 
